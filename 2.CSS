@@ -1,0 +1,140 @@
+.btn {
+    font-size: 25px;
+    padding: 30px 50px;
+    border: 3px solid gold;
+    background-color: transparent;
+    color: lightgray;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+    font-weight: bolder;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.btn::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    left: 0%;
+    background-color: gold;
+    transition: all 0.5s;
+    z-index: -1;
+}
+.btn:hover::before {
+    transform: translateY(-100%);
+}
+.btn:hover {
+    color: black;
+}
+.h {
+    font-weight: bold;
+    color: #007bff;
+}
+.h1 {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 3rem;
+}
+.skan {
+    border: 3px solid lightgray;
+    width: 225px;
+    height: 95px;
+    padding: 10px;
+}
+.so {
+    margin: 20px;
+    height: 550px;
+    line-height: 40px;
+    font-size: 17px;
+}
+.fortin {
+    border: 3px solid lightgray;
+    width: 225px;
+    height: 110px;
+    padding: 10px;
+}
+.qjrdj {
+    border: 3px solid lightgray;
+    width: 150px;
+    height: 95px;
+    padding: 10px;
+}
+.zlzl {
+    margin-top: 200px;
+}
+.qjrdj1 {
+    border: 3px solid lightgray;
+    width: 230px;
+    height: 100px;
+    padding: 10px;
+}
+.so1 {
+    margin: 20px;
+    height: 2150px;
+    line-height: 40px;
+    font-size: 17px;
+}
+.so2 {
+    margin: 20px;
+    height: 1000px;
+    line-height: 40px;
+    font-size: 17px;
+}
+.so3 {
+    margin: 20px;
+    height: 10000px;
+    line-height: 40px;
+    font-size: 17px;
+}
+.so4 {
+    margin: 20px;
+    height: 1900px;
+    line-height: 40px;
+    font-size: 17px;
+}
+.rbclr {
+    border: 2px solid grey;
+    width: 600px;
+    background-color: rgb(231, 231, 231);
+    margin: 10px;
+    padding: 15px;
+}
+.rbclr1 {
+    border: 2px solid grey;
+    width: 750px;
+    background-color: rgb(231, 231, 231);
+    margin: 10px;
+    padding: 15px;
+    height: 50px;
+    line-height: 1;
+}
+.vydiv {
+    border: 2px solid rgb(255, 144, 163);
+    width: 500px;
+    text-align: center;
+}
+.vy {
+    background-color:#FFDFDF;
+    border:1px solid #FF9F9F;
+    width: 500px;
+    
+}
+.xpdlqmf {
+    width: 500px;
+}
+.dhflwls {
+    width: 450px;
+
+}
+.rhr {
+    line-height: 20px;
+}
+.tmi {
+    line-height: 50px;
+}
+.play {
+    font-size: 2rem;
+    line-height: 40px;
+}
